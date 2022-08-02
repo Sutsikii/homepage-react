@@ -1,0 +1,42 @@
+.header-active{
+    transition: 0.4s ;
+}
+
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 100;
+    background-color: violet ;
+}
+
+.nav {
+    display: flex;   
+    align-items: center;
+    justify-content:start;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 2rem;
+    margin-left : 1.90rem;
+}
+
+.nav-link, .logo {
+    color:white;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
